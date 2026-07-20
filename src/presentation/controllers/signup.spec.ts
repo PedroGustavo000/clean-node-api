@@ -14,5 +14,6 @@ describe('SignUp Controler', () => {
         }
         const  httpResonse = sut.handle(httpRequest)
         expect(httpResonse.statusCode).toBe(400)
+        expect(httpResonse.body).toEqual(new Error('Missing param: name'))
     })
 })
