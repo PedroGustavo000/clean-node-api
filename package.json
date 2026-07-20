@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
@@ -16,7 +16,7 @@
     "@types/node": "^26.1.1",
     "@typescript-eslint/eslint-plugin": "^8.64.0",
     "@typescript-eslint/parser": "^8.64.0",
-    "eslint": "^10.7.0",
+    "eslint": "8.57.1",
     "husky": "^9.1.7",
     "jest": "^30.4.2",
     "lint-staged": "^17.1.0",
